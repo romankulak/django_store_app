@@ -6,7 +6,9 @@
       "title": "Test Book 1",
       "publisher_id": 1,
       "price": 100,
-      "stock": 20
+      "stock": 20,
+      "isbn": 9876543321,
+      "authors_info": "Test Author"
     }
   },
   {
@@ -16,7 +18,9 @@
       "title": "Test Book 2",
       "publisher_id": 1,
       "price": 100,
-      "stock": 20
+      "stock": 20,
+      "isbn": 9876543321,
+      "authors_info": "Test Author"
     }
   },
   {
@@ -26,7 +30,9 @@
       "title": "Test Book 3",
       "publisher_id": 1,
       "price": 100,
-      "stock": 20
+      "stock": 20,
+      "isbn": 9876543321,
+      "authors_info": "Test Author"
     }
   },
   {
@@ -36,7 +42,9 @@
       "title": "Test Book 4",
       "publisher_id": 1,
       "price": 100,
-      "stock": 20
+      "stock": 20,
+      "isbn": 9876543321,
+      "authors_info": "Test Author"
     }
   },
   {
@@ -46,7 +54,9 @@
       "title": "Test Book 5",
       "publisher_id": 1,
       "price": 100,
-      "stock": 20
+      "stock": 20,
+      "isbn": 9876543321,
+      "authors_info": "Test Author"
     }
   },
   {
@@ -56,7 +66,9 @@
       "title": "Test Book 6",
       "publisher_id": 1,
       "price": 100,
-      "stock": 20
+      "stock": 20,
+      "isbn": 9876543321,
+      "authors_info": "Test Author"
     }
   },
   {
@@ -66,7 +78,9 @@
       "title": "Test Book 7",
       "publisher_id": 1,
       "price": 100,
-      "stock": 20
+      "stock": 20,
+      "isbn": 9876543321,
+      "authors_info": "Test Author"
     }
   },
   {
@@ -76,7 +90,9 @@
       "title": "Test Book 8",
       "publisher_id": 1,
       "price": 100,
-      "stock": 20
+      "stock": 20,
+      "isbn": 9876543321,
+      "authors_info": "Test Author"
     }
   },
   {
@@ -87,7 +103,9 @@
       "publisher_id": 1,
       "status": "published",
       "price": 100,
-      "stock": 20
+      "stock": 20,
+      "isbn": 9876543321,
+      "authors_info": "Test Author"
     }
   },
   {
@@ -98,7 +116,9 @@
       "publisher_id": 1,
       "status": "published",
       "price": 100,
-      "stock": 20
+      "stock": 20,
+      "isbn": 9876543321,
+      "authors_info": "Test Author"
     }
   }
 ]
