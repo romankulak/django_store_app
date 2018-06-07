@@ -18,7 +18,7 @@
             price: {{ book.price}}
         </p>
         <p class="date">
-            Published {{ book.publish }} by {{ book.publisher }}
+            Published {{ book.publish_date }} by {{ book.publisher }}
         </p>
     {% endfor %}
     {% include "pagination.html" with page=books %}

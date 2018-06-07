@@ -8,7 +8,8 @@
       "price": 100,
       "stock": 20,
       "isbn": 9876543321,
-      "authors_info": "Test Author"
+      "authors_info": "Test Author",
+      "publish_date": "2018-06-7T17:00:02Z"
     }
   },
   {
@@ -20,7 +21,8 @@
       "price": 100,
       "stock": 20,
       "isbn": 9876543321,
-      "authors_info": "Test Author"
+      "authors_info": "Test Author",
+      "publish_date": "2018-06-7T17:00:02Z"
     }
   },
   {
@@ -32,7 +34,8 @@
       "price": 100,
       "stock": 20,
       "isbn": 9876543321,
-      "authors_info": "Test Author"
+      "authors_info": "Test Author",
+      "publish_date": "2018-05-7T17:00:02Z"
     }
   },
   {
@@ -44,7 +47,8 @@
       "price": 100,
       "stock": 20,
       "isbn": 9876543321,
-      "authors_info": "Test Author"
+      "authors_info": "Test Author",
+      "publish_date": "2018-06-1T17:00:02Z"
     }
   },
   {
@@ -56,7 +60,8 @@
       "price": 100,
       "stock": 20,
       "isbn": 9876543321,
-      "authors_info": "Test Author"
+      "authors_info": "Test Author",
+      "publish_date": "2018-06-2T17:00:02Z"
     }
   },
   {
@@ -68,7 +73,8 @@
       "price": 100,
       "stock": 20,
       "isbn": 9876543321,
-      "authors_info": "Test Author"
+      "authors_info": "Test Author",
+      "publish_date": "2018-06-3T17:00:02Z"
     }
   },
   {
@@ -80,7 +86,8 @@
       "price": 100,
       "stock": 20,
       "isbn": 9876543321,
-      "authors_info": "Test Author"
+      "authors_info": "Test Author",
+      "publish_date": "2018-06-4T17:00:02Z"
     }
   },
   {
@@ -92,7 +99,8 @@
       "price": 100,
       "stock": 20,
       "isbn": 9876543321,
-      "authors_info": "Test Author"
+      "authors_info": "Test Author",
+      "publish_date": "2018-06-5T17:00:02Z"
     }
   },
   {
@@ -105,7 +113,8 @@
       "price": 100,
       "stock": 20,
       "isbn": 9876543321,
-      "authors_info": "Test Author"
+      "authors_info": "Test Author",
+      "publish_date": "2018-06-6T17:00:02Z"
     }
   },
   {
@@ -118,7 +127,8 @@
       "price": 100,
       "stock": 20,
       "isbn": 9876543321,
-      "authors_info": "Test Author"
+      "authors_info": "Test Author",
+      "publish_date": "2018-06-7T17:00:02Z"
     }
   }
 ]

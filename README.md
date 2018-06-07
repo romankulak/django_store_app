@@ -4,9 +4,10 @@
 # Installing Locally
 - Python 3.6+ required
 
-1. Clone the project `https://github.com/romankulak/django_store_app.git`
+0. Clone the project `https://github.com/romankulak/django_store_app.git`
+1. Create virtual environment `virtualenv venv`
 2. Setup requirements using virtualenv `pip install -r requirements.txt` 
-3. Apply DB migrations `python manage.py db migrate`
+3. Apply DB migrations `python manage.py migrate`
 4. Test `python manage.py test`
 5. Load initial data from fixtures 
     * `python manage.py loaddata users.json`
