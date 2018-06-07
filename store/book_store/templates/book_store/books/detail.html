@@ -1,0 +1,30 @@
+{% extends 'book_store/base.html' %}
+
+{% block content %}
+    <div class="book">
+        {% if book.published_date %}
+            <div class="date">
+                {{ book.published_date }}
+            </div>
+        {% else %}
+        {% endif %}
+        {% if user.is_authenticated %}
+            {% if book.is_published %}
+                <a class="btn btn-default" href="{% url 'book_store:book_change_status' pk=book.pk %}">
+                    Unpublish
+                </a>
+            {% else %}
+                <a class="btn btn-default" href="{% url 'book_store:book_change_status' pk=book.pk %}">
+                    Publish
+                </a>
+            {% endif %}
+                <a class="btn btn-default" href="{% url 'book_store:book_edit' pk=book.pk %}">
+                    <span class="glyphicon glyphicon-pencil"></span>
+                </a>
+                <a class="btn btn-default" href="{% url 'book_store:book_remove' pk=book.pk %}">
+                    <span class="glyphicon glyphicon-remove"></span>
+                </a>
+        {% endif %}
+        <h1>{{ book.title }}</h1>
+    </div>
+{% endblock %}

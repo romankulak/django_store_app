@@ -1,0 +1,104 @@
+[
+  {
+    "model": "book_store.book",
+    "pk": 1,
+    "fields": {
+      "title": "Test Book 1",
+      "publisher_id": 1,
+      "price": 100,
+      "stock": 20
+    }
+  },
+  {
+    "model": "book_store.book",
+    "pk": 2,
+    "fields": {
+      "title": "Test Book 2",
+      "publisher_id": 1,
+      "price": 100,
+      "stock": 20
+    }
+  },
+  {
+    "model": "book_store.book",
+    "pk": 3,
+    "fields": {
+      "title": "Test Book 3",
+      "publisher_id": 1,
+      "price": 100,
+      "stock": 20
+    }
+  },
+  {
+    "model": "book_store.book",
+    "pk": 4,
+    "fields": {
+      "title": "Test Book 4",
+      "publisher_id": 1,
+      "price": 100,
+      "stock": 20
+    }
+  },
+  {
+    "model": "book_store.book",
+    "pk": 5,
+    "fields": {
+      "title": "Test Book 5",
+      "publisher_id": 1,
+      "price": 100,
+      "stock": 20
+    }
+  },
+  {
+    "model": "book_store.book",
+    "pk": 6,
+    "fields": {
+      "title": "Test Book 6",
+      "publisher_id": 1,
+      "price": 100,
+      "stock": 20
+    }
+  },
+  {
+    "model": "book_store.book",
+    "pk": 7,
+    "fields": {
+      "title": "Test Book 7",
+      "publisher_id": 1,
+      "price": 100,
+      "stock": 20
+    }
+  },
+  {
+    "model": "book_store.book",
+    "pk": 8,
+    "fields": {
+      "title": "Test Book 8",
+      "publisher_id": 1,
+      "price": 100,
+      "stock": 20
+    }
+  },
+  {
+    "model": "book_store.book",
+    "pk": 9,
+    "fields": {
+      "title": "Test Book 9",
+      "publisher_id": 1,
+      "status": "published",
+      "price": 100,
+      "stock": 20
+    }
+  },
+  {
+    "model": "book_store.book",
+    "pk": 10,
+    "fields": {
+      "title": "Test Book 10",
+      "publisher_id": 1,
+      "status": "published",
+      "price": 100,
+      "stock": 20
+    }
+  }
+]

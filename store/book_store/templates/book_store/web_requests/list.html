@@ -1,0 +1,17 @@
+{% extends "book_store/base.html" %}
+
+{% block title %}Requests{% endblock %}
+
+{% block content %}
+    <h1>
+        Requests
+    </h1>
+    {% for req in web_requests %}
+        <ul class="list-group">
+            <li class="list-group-item">
+                {{ req.method }} {{ req.status_code }} {{ req.host }} {{ req.path}}
+                {{ req.uri}} {{ req.time }} {{ req.user_agent }}
+            </li>
+        </ul>
+    {% endfor %}
+{% endblock%}

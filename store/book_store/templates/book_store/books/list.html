@@ -1,0 +1,25 @@
+{% extends "book_store/base.html" %}
+
+{% block title %}My Books{% endblock %}
+
+{% block content %}
+    <h1>
+        Book List
+    </h1>
+    {% for book in books %}
+        <h2>
+            <a href="{% url 'book_store:book_detail' pk=book.pk %}">
+                {{ book.title }}
+            </a>
+        </h2>
+        <p>
+            Author info: {{ book.authors_info }}
+            ISBN: {{ book.isbn }}
+            price: {{ book.price}}
+        </p>
+        <p class="date">
+            Published {{ book.publish }} by {{ book.publisher }}
+        </p>
+    {% endfor %}
+    {% include "pagination.html" with page=books %}
+{% endblock%}
